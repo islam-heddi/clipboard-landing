@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Outfit:wght@800&display=swap');
+
+*{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+header{
+    padding: 100px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+button.ios{
+    background-color: hsl(171, 66%, 44%);
+}
+
+button.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+
+button{
+    padding: 20px 50px;
+    border: none;
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+.buttons{
+    justify-content: space-around;
+    display: flex;
+}
+
+body{
+    border: 1440px;
+    background-image: url(./images/bg-header-desktop.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.body-clip{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.news-app{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-app{
+    display: flex;
+    flex-direction: column;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.access{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.object{
+    margin: 0 auto;
+    max-width: 360px;
+}
+
+.usefull{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.end{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: hsl(210, 10%, 33%);
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
