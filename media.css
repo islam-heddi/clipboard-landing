@@ -1,4 +1,4 @@
-@media screen and (max-width:375px) {
+@media screen and (max-width:725px) {
     .buttons{
         flex-direction: column;
         gap: 1em;
