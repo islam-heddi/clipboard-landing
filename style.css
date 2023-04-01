@@ -1,29 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Outfit:wght@800&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&display=swap');
 *{
     font-family: 'Bai Jamjuree', sans-serif;
     font-family: 'Outfit', sans-serif;
 }
 
+body{
+    border: 1440px;
+    background-image: url(./images/bg-header-desktop.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
 header{
-    padding: 100px;
-    max-width: 500px;
-    margin: 0 auto;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1{
+    padding-top: 1.5em;
 }
 
 button.ios{
-    background-color: hsl(171, 66%, 44%);
+    background-color: rgb(38, 186, 164);
+    box-shadow: -8px 9px 12px -8px rgba(38, 186, 164,0.75);
 }
 
 button.mac{
-    background-color: hsl(233, 100%, 69%);
+    background-color: rgb(97, 115, 255);
+    box-shadow: -8px 9px 12px -8px rgba(97, 115, 255,0.75);
 }
 
 button{
     padding: 20px 50px;
     border: none;
     font-size: 20px;
-    border-radius: 20px;
+    border-radius: 3em;
     color: white;
 }
 
@@ -34,62 +53,78 @@ button:hover{
 .buttons{
     justify-content: space-around;
     display: flex;
-}
-
-body{
-    border: 1440px;
-    background-image: url(./images/bg-header-desktop.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    margin-top: 5em;
+    gap: 1em;
 }
 
 .body-clip{
     max-width: 600px;
-    margin: 0 auto;
+    margin: 3em auto;
 }
 
 .news-app{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 5em;
+    gap: 5em;
+    margin-right:auto;
+    margin-left: auto;
+    position: relative;
+    left: -12em;
+}
+
+.feature{
+    width: 23em;
 }
 
 .menu-app{
     display: flex;
     flex-direction: column;
-    max-width: 360px;
-    margin: 0 auto;
-    padding: 1px;
+    padding: 1em;
 }
 
 .access{
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8em auto;
+}
+
+.access img{
+    margin: 5em 0;
 }
 
 .object{
-    margin: 0 auto;
-    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .usefull{
-    display: flex;
-    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10em 3em;
+    gap: 2em;
+    text-align: center;
 }
 
 .pictures{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 5em;
     margin-bottom: 50px;
 }
 
 .end{
-    max-width: 600px;
-    margin: 0 auto;
+    margin: 6em auto;
     display: flex;
+    align-items: center;
     flex-direction: column;
+}
+
+.end p{
+    width: 40em;
+    text-align: center;
 }
 
 h1{
@@ -97,6 +132,48 @@ h1{
 }
 
 p{
-    color: hsl(201, 11%, 66%);
+    color: hsl(201, 11%, 66%) !important;
 }
 
+.news-app img{
+    width: 50em;
+    
+}
+
+.action{
+    display: flex;
+    gap: 2em;
+    margin-top: 3em;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: hsl(0, 0%, 96%);
+    padding: 2em;
+    width: 100%;
+}
+
+.bottom .info{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.logo img{
+    width: 5em;
+    height: 5em;
+}
+
+.bottom a{
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,86 @@
+@media screen and (max-width:375px) {
+    .buttons{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    body{
+        background-image: url(./images/bg-header-mobile.png);
+    }
+
+    header{
+        margin: 6.5em 6.5em;
+        align-items: center;
+    }
+
+    .body-clip{
+        margin-left: 3em;
+    }
+
+    .news-app{
+        display: flex;
+        flex-direction: column-reverse;
+        left: 0em;
+        margin: 0 1em;
+    }
+
+    .news-app img{
+        width: 25em;
+    }
+
+    .menu-app{
+        align-items: center;
+        text-align: center;
+        margin: 0 10em;
+    }
+
+    .access{
+        margin-left: 3em;
+        text-align: center;
+
+    }
+
+    .access img{
+        width: 20em;
+    }
+
+    .usefull{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pictures{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10em;
+    }
+
+    .pictures img{
+        width: 10em;
+        margin-bottom: 5em;
+    }
+    .action{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media{
+        gap: 5em;
+    }
+
+    .end{
+        text-align: center;
+    }
+
+    .end p{
+        width: 20em;
+    }
+}
